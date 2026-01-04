@@ -81,7 +81,7 @@ const LeadForm = () => {
       const message = encodeURIComponent(
         `Hi! I'm ${formData.name}. I'm interested in ${formData.preference}. Please contact me at ${formData.phone} or ${formData.email}.`
       );
-      window.open(`https://wa.me/919876543210?text=${message}`, "_blank");
+      window.open(`https://wa.me/918180956831?text=${message}`, "_blank");
     }, 2000);
   };
 
@@ -181,7 +181,7 @@ const LeadForm = () => {
                       id="phone"
                       name="phone"
                       type="tel"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 8180956831"
                       value={formData.phone}
                       onChange={handleChange}
                       className={errors.phone ? "border-destructive" : ""}

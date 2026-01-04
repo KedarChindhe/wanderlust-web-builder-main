@@ -5,11 +5,11 @@ import heroImage from "@/assets/hero-beach.jpg";
 
 const Hero = () => {
   const openWhatsApp = () => {
-    window.open("https://wa.me/919876543210?text=Hi! I'm interested in booking a travel package.", "_blank");
+    window.open("https://wa.me/918180956831?text=Hi! I'm interested in booking a travel package.", "_blank");
   };
 
   const callNow = () => {
-    window.location.href = "tel:+919876543210";
+    window.location.href = "tel:+918180956831";
   };
 
   return (

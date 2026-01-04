@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   const callNow = () => {
-    window.location.href = "tel:+919876543210";
+    window.location.href = "tel:+918180956831";
   };
 
   return (

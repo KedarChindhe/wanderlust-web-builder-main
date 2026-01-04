@@ -72,7 +72,7 @@ const item = {
 const Packages = () => {
   const openWhatsApp = (packageName: string) => {
     window.open(
-      `https://wa.me/919876543210?text=Hi! I'm interested in the ${packageName} package.`,
+      `https://wa.me/918180956831?text=Hi! I'm interested in the ${packageName} package.`,
       "_blank"
     );
   };
